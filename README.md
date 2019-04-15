@@ -4,11 +4,11 @@
 
 Current features:
 
-- Builds via Parcel.
-- Pre-fetch using a _non-blocking_ `getInitialProps()` on the client.
-- Server uses [`koa`](https://github.com/koajs/koa) and [`koa-router`](https://github.com/ZijianHe/koa-router).
-- Client router uses [`navaid`](https://github.com/lukeed/navaid).
-- Auto-generated routes from `./pages` _or_ custom parameterized routing (see "Configuring").
+- 📦 Builds via Parcel.
+- ⚾ Pre-fetch using a _non-blocking_ `getInitialProps()` on the client.
+- 🖥️ Server uses [`koa`](https://github.com/koajs/koa) and [`koa-router`](https://github.com/ZijianHe/koa-router).
+- 👤 Client router uses [`navaid`](https://github.com/lukeed/navaid).
+- 📄 Auto-generated routes from `./pages` _or_ custom parameterized routing (see "Configuring").
 
 Future plans:
 
