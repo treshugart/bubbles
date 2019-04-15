@@ -14,6 +14,8 @@ const defaults = {
   urlSeparator: "-"
 };
 
+const pkg = require("../package.json");
+
 async function getDefaultRoutes(opt) {
   const base = cwd(opt.basePath);
   const dirs = await recursiveReaddir(base, ["_*", "__tests__"]);
@@ -37,7 +39,7 @@ async function getDefaultRoutes(opt) {
 module.exports = async function(opt) {
   opt = {
     ...defaults,
-    ...((await cosmiconfig("afp").search()) || {}).config,
+    ...((await cosmiconfig(pkg.name).search()) || {}).config,
     ...opt
   };
 

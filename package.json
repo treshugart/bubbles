@@ -1,5 +1,5 @@
 {
-  "name": "spa",
+  "name": "bubbles",
   "version": "1.0.0",
   "description": "A React SSR SPA framework built on top of ParcelJS.",
   "main": "src/index.js",
