@@ -79,7 +79,7 @@ When routes are automatically genreated from the `basePath`, the file paths go t
 1. The complete path, including `basePath` is stripped from the file name.
 2. The suffix is removed.
 3. The path is decamelized using [`decamelize`](https://github.com/sindresorhus/decamelize) and `urlSeparator` is used as the `separator` argument.
-4. Any `index` file is removed.
+4. If `index` is the last part of the path, it is removed.
 
 Here are some examples of how things are transformed with a `basePath` of `pages` and a `urlSeparator` of `-`:
 
