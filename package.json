@@ -1,0 +1,46 @@
+{
+  "name": "spa",
+  "version": "1.0.0",
+  "description": "A React SSR SPA framework built on top of ParcelJS.",
+  "main": "src/index.js",
+  "bin": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trey Shugart <treshugart@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "cosmiconfig": "^5.1.0",
+    "decamelize": "^3.2.0",
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "meow": "^5.0.0",
+    "navaid": "^1.0.0",
+    "parcel-bundler": "^1.12.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "recursive-readdir": "^2.2.2"
+  },
+  "babel": {
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": true
+          }
+        }
+      ],
+      "@babel/preset-react"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0"
+  }
+}
