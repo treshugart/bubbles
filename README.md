@@ -6,13 +6,13 @@ Current features:
 
 - Builds via Parcel.
 - Pre-fetch using a _non-blocking_ `getInitialProps()` on the client.
-- Server uses [`koa`](https://github.com/koajs/koa).
+- Server uses [`koa`](https://github.com/koajs/koa) and [`koa-router`](https://github.com/ZijianHe/koa-router).
 - Client router uses [`navaid`](https://github.com/lukeed/navaid).
 - Auto-generated routes from `./pages` _or_ custom parameterized routing (see "Configuring").
 
 Future plans:
 
-- Use Parcel to build the server files (currently uses Babel) to seamless universal features.
+- Use Parcel to build the server files (currently uses Babel) to get seamless universal features (like `.mdx` in SSR mode).
 - Hot-reloading / watching. Will come with full Parcel support.
 - Implement [`path-to-regexp`](https://github.com/pillarjs/path-to-regexp) when matching routes.
 - Monorepo / workspaces support.
@@ -25,7 +25,7 @@ You can install it as a local package by cloning the repo and running `npm i ../
 
 ## Using
 
-**\_Since this isn't published yet, you're must install as a local package or by running the pages contained in the repo itself, for now.**
+**_Since this isn't published yet, you're must install as a local package or by running the pages contained in the repo itself, for now._**
 
 To run the local pages run `node ./bin`. If you've installed it locally, you can run it via `bubbles` for now.
 
