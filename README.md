@@ -16,6 +16,7 @@ Future plans:
 - Hot-reloading / watching. Will come with full Parcel support.
 - Implement [`path-to-regexp`](https://github.com/pillarjs/path-to-regexp) when matching routes.
 - Monorepo / workspaces support.
+- `<Link />` component for generating anchors with URLs from the routes.
 - Custom route handlers (for redirects, 404s etc at the routing level).
 
 ## Installing
