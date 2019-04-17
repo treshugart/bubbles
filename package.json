@@ -5,6 +5,9 @@
   "main": "src/index.js",
   "bin": "bin/index.js",
   "scripts": {
+    "build": "node ./bin build --env production",
+    "dev": "node ./bin",
+    "start": "node ./bin prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Trey Shugart <treshugart@gmail.com>",
