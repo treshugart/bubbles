@@ -1,4 +1,5 @@
 import React from "react";
+import Mdx from "./index.mdx";
 
 export default class extends React.Component {
   static async getInitialProps() {
@@ -15,6 +16,11 @@ export default class extends React.Component {
     return { name: "World" };
   }
   render() {
-    return <>Hello, {this.props.name}!</>;
+    return (
+      <>
+        Hello, {this.props.name}!
+        <Mdx />
+      </>
+    );
   }
 }
