@@ -8,7 +8,7 @@ module.exports = async function(opt) {
 
   // Copy over defaults.
   await execa("babel", [
-    path.join(__dirname, "..", "pages"),
+    path.join(__dirname, "..", "..", "pages"),
     "--out-dir",
     cwd(opt.outputDir, "node", opt.basePath)
   ]);
